@@ -83,4 +83,5 @@ groups:
       summary: Windows Server memory Usage (instance {{ $labels.instance }})
       description: "Memory usage is more than 90%\n  VALUE = {{ $value }}\n  LABELS = {{ $labels }}"
 
-# 
+# Collection of alerting rules
+# https://samber.github.io/awesome-prometheus-alerts/rules.html#docker-containers
