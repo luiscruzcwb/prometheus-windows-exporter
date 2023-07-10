@@ -15,7 +15,7 @@ docker-compose up -d
 
 Para baixar o Prometheus Windows Exporter, acesse a página do [GitHub](https://github.com/prometheus-community/windows_exporter) da comunidade.
 
-Faça o download da versão mais recente (v0.22.0 no momento em que este documento foi escrito) do Windows Exporter na seção "Releases".
+Faça o download da versão mais recente (v0.22.0 no momento) do Windows Exporter na seção "Releases".
 
 Se você estiver usando uma **versão de 32 bits** do sistema operacional Windows, clique no link **_windows_exporter-*-386.msi._**
 
@@ -37,7 +37,7 @@ Se você visualizar a saída abaixo, significa que o Windows Exporter está em f
 
 ## Configurando o Windows Exporter no Prometheus
 
-
+Abra o arquivo prometheus.yml
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3OTEwMjQ2Ml19
+eyJoaXN0b3J5IjpbMTEzNDQ0MjIzNywxMjc5MTAyNDYyXX0=
 -->
