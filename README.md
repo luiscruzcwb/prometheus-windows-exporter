@@ -49,7 +49,7 @@ Inclua na sessão ***## Hosts OS Windows / Windows Servers*** os seus alvos de c
       - job_name: 'hostname'
         scrape_interval: 10s
         static_configs:
-          - targets: ['IP:9182']
+          - targets: ['IP-Host:9182']
           
 Recomendo criar uma entrada para cada Host, caso contrario, basta separa os hosts dessa forma: 
 
@@ -57,7 +57,11 @@ Recomendo criar uma entrada para cada Host, caso contrario, basta separa os host
         scrape_interval: 10s
         static_configs:
           - targets: ['IP-Host1:9182'],['IP-Host2:9182']
+
+## Visualizando os dados no Grafana
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjM4MjM1Miw0MjM5MjkyNzksLTU3Nj
-U5NTE2LDExMzQ0NDIyMzcsMTI3OTEwMjQ2Ml19
+eyJoaXN0b3J5IjpbLTIxMDMxMjc3MzgsNDIzOTI5Mjc5LC01Nz
+Y1OTUxNiwxMTM0NDQyMjM3LDEyNzkxMDI0NjJdfQ==
 -->
