@@ -23,17 +23,11 @@ Se você estiver usando uma **versão de 64 bits** do sistema operacional Window
 
 ## Instalando o Windows Exporter
 
-O Prometheus Windows Exporter possui vários coletores, cada um responsável por exportar informações específicas. Alguns coletores estarão desativados por padrão, para obter uma lista dos coletores compatíveis, ativos e desativados, visite a seção "Collectors" na página do [GitHub](https://github.com/prometheus-community/windows_exporter). 
-
 Após o download, em seu host windows, navegue até o local do download,  via terminal (execute como administrador), e execute o seguinte comando:
 ```
 msiexec /i ./windows_exporter-0.22.0-amd64.msi
 ```
 O Windows Exporter estará em execução na porta 9182 do seu host windows, para verificar abra o navegador e acesse o endereço: http://localhost:9182/metrics. 
-
-Se você visualizar a saída abaixo, significa que o Windows Exporter está em funcionamento.
-		
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fe38rp9464cmi1mvm5zw.png)
 
 ## Configurando o Windows Exporter no Prometheus
 
@@ -66,7 +60,7 @@ Em Home > Dashboards > ***windows_exporter for Prometheus***, os seus dados já 
 
 ![enter image description here](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4st2bjk9un7peji4dd0o.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODk4MjkzMDEsMTY2MjIxODQ0MywxNT
-k0OTQxMzkzLC0yMTAzMTI3NzM4LDQyMzkyOTI3OSwtNTc2NTk1
-MTYsMTEzNDQ0MjIzNywxMjc5MTAyNDYyXX0=
+eyJoaXN0b3J5IjpbMzM2MjAyOTgyLC0xMTg5ODI5MzAxLDE2Nj
+IyMTg0NDMsMTU5NDk0MTM5MywtMjEwMzEyNzczOCw0MjM5Mjky
+NzksLTU3NjU5NTE2LDExMzQ0NDIyMzcsMTI3OTEwMjQ2Ml19
 -->
