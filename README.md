@@ -37,7 +37,8 @@ Se você visualizar a saída abaixo, significa que o Windows Exporter está em f
 
 ## Configurando o Windows Exporter no Prometheus
 
-Abra o arquivo prometheus.yml
+Navegue até a pasta _**prometheus**_ e dite o arquivo 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDQ0MjIzNywxMjc5MTAyNDYyXX0=
+eyJoaXN0b3J5IjpbMTk3MTQ1OTIxLDExMzQ0NDIyMzcsMTI3OT
+EwMjQ2Ml19
 -->
