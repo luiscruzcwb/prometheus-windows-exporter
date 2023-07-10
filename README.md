@@ -46,9 +46,13 @@ Navegue até a pasta _**prometheus**_ e dite o arquivo _**prometheus.yml**_.
 
 Inclua na sessão ***## Hosts OS Windows / Windows Servers*** os seus alvos de coleta, como exemplo abaixo: 
 
+      - job_name: 'hostname'
+        scrape_interval: 10s
+        static_configs:
+          - targets: ['IP:9182']
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTAxNzQwMDcsMTEzNDQ0MjIzNywxMj
-c5MTAyNDYyXX0=
+eyJoaXN0b3J5IjpbLTU3NjU5NTE2LDExMzQ0NDIyMzcsMTI3OT
+EwMjQ2Ml19
 -->
