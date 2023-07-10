@@ -55,9 +55,11 @@ Recomendo criar uma entrada para cada Host, caso contrario, basta separa os host
 
 ## Visualizando os dados no Grafana
 
-Em seu navegador, acesse o endereço: http://localhost:9182/metrics. 
+Em seu navegador, acesse o endereço: http://localhost:3000/.
+Usuário: Admin
+Senha: grafana 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDk0MTM5MywtMjEwMzEyNzczOCw0Mj
-M5MjkyNzksLTU3NjU5NTE2LDExMzQ0NDIyMzcsMTI3OTEwMjQ2
-Ml19
+eyJoaXN0b3J5IjpbLTc0OTQzNDY0MSwxNTk0OTQxMzkzLC0yMT
+AzMTI3NzM4LDQyMzkyOTI3OSwtNTc2NTk1MTYsMTEzNDQ0MjIz
+NywxMjc5MTAyNDYyXX0=
 -->
