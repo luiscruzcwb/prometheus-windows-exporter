@@ -44,8 +44,11 @@ Navegue até a pasta _**prometheus**_ e dite o arquivo _**prometheus.yml**_.
 > comportamento do Prometheus, como os alvos de coleta de dados, regras
 > de gravação e alertas.
 
-Inclua na sessão ***## Hosts OS Windows / Windows Servers*** os seus alvos de coleta, co
+Inclua na sessão ***## Hosts OS Windows / Windows Servers*** os seus alvos de coleta, como exemplo abaixo: 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5NDQyOTcsMTEzNDQ0MjIzNywxMjc5MT
-AyNDYyXX0=
+eyJoaXN0b3J5IjpbLTE3MTAxNzQwMDcsMTEzNDQ0MjIzNywxMj
+c5MTAyNDYyXX0=
 -->
