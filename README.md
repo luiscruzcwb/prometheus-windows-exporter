@@ -29,7 +29,7 @@ msiexec /i ./windows_exporter-0.22.0-amd64.msi
 ```
 O Windows Exporter estará em execução na porta 9182 do seu host windows, para verificar abra o navegador e acesse o endereço: http://localhost:9182/metrics. 
 
-## Configurando o Windows Exporter no Prometheus
+## Configurando o Host (alvo no Prometheus
 
 Navegue até a pasta _**prometheus**_ e edite o arquivo _**prometheus.yml**_.
 
@@ -60,7 +60,8 @@ Em Home > Dashboards > ***windows_exporter for Prometheus***, os seus dados já 
 
 ![enter image description here](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4st2bjk9un7peji4dd0o.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2MjAyOTgyLC0xMTg5ODI5MzAxLDE2Nj
-IyMTg0NDMsMTU5NDk0MTM5MywtMjEwMzEyNzczOCw0MjM5Mjky
-NzksLTU3NjU5NTE2LDExMzQ0NDIyMzcsMTI3OTEwMjQ2Ml19
+eyJoaXN0b3J5IjpbLTE1OTg3OTUwMTIsMzM2MjAyOTgyLC0xMT
+g5ODI5MzAxLDE2NjIyMTg0NDMsMTU5NDk0MTM5MywtMjEwMzEy
+NzczOCw0MjM5MjkyNzksLTU3NjU5NTE2LDExMzQ0NDIyMzcsMT
+I3OTEwMjQ2Ml19
 -->
