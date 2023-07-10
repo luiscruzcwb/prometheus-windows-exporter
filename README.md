@@ -50,9 +50,14 @@ Inclua na sessão ***## Hosts OS Windows / Windows Servers*** os seus alvos de c
         scrape_interval: 10s
         static_configs:
           - targets: ['IP:9182']
+          
+Recomendo criar uma entrada para cada Host, caso contrario, basta separa os hosts dessa forma: 
 
-
+      - job_name: 'hostname'
+        scrape_interval: 10s
+        static_configs:
+          - targets: ['IP-Host1:9182'],['IP-Host2:9182']
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzOTI5Mjc5LC01NzY1OTUxNiwxMTM0ND
-QyMjM3LDEyNzkxMDI0NjJdfQ==
+eyJoaXN0b3J5IjpbLTc1MjM4MjM1Miw0MjM5MjkyNzksLTU3Nj
+U5NTE2LDExMzQ0NDIyMzcsMTI3OTEwMjQ2Ml19
 -->
