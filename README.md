@@ -65,9 +65,9 @@ Em seu navegador, acesse o endereço: http://localhost:3000/.
 
 No menu Dashboard, acessando o gráfico ***windows_exporter for Prometheus***, os seus dados já estarão sendo apresentados. 
 
-
+https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4st2bjk9un7peji4dd0o.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjIxODQ0MywxNTk0OTQxMzkzLC0yMT
-AzMTI3NzM4LDQyMzkyOTI3OSwtNTc2NTk1MTYsMTEzNDQ0MjIz
-NywxMjc5MTAyNDYyXX0=
+eyJoaXN0b3J5IjpbMTY2OTgzMjE1LDE2NjIyMTg0NDMsMTU5ND
+k0MTM5MywtMjEwMzEyNzczOCw0MjM5MjkyNzksLTU3NjU5NTE2
+LDExMzQ0NDIyMzcsMTI3OTEwMjQ2Ml19
 -->
