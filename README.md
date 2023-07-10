@@ -41,14 +41,8 @@ Navegue até a pasta _**prometheus**_ e dite o arquivo _**prometheus.yml**_.
 
 O arquivo `prometheus.yml` é o arquivo de configuração principal do Prometheus, sendo usado para definir as configurações relacionadas ao comportamento do Prometheus, como os alvos de coleta de dados, regras de gravação e alertas. 
 
-1.  Configuração do scrape: É onde você define os alvos de coleta de dados que o Prometheus deve acessar para recuperar métricas. Isso inclui endpoints HTTP, serviços de descoberta de serviço, arquivos estáticos ou outros sistemas de monitoramento.
-    
-2.  Configuração de retenção de dados: Define o tempo de retenção das métricas coletadas no Prometheus. Isso determina quanto tempo os dados serão armazenados antes de serem descartados.
-    
-3.  Regras de gravação: Você pode definir regras para processar as métricas coletadas e criar novas métricas derivadas. Isso permite a agregação, transformação e filtragem de dados antes de serem armazenados.
-    
-4.  Configuração de alerta: Você pode definir regras de alerta para notificar quando certas condições forem atingidas com base nas métricas coletadas. Essas regras podem acionar notificações por e-mail, integrações com ferramentas de comunicação, como o Slack, ou outros métodos de alerta.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjA4MDI0NiwxMTM0NDQyMjM3LDEyNz
+eyJoaXN0b3J5IjpbLTM3MjU0MjgyNiwxMTM0NDQyMjM3LDEyNz
 kxMDI0NjJdfQ==
 -->
