@@ -25,11 +25,11 @@ Se você estiver usando uma **versão de 64 bits** do sistema operacional Window
 
 O Prometheus Windows Exporter possui vários coletores, cada um responsável por exportar informações específicas. Alguns coletores estarão desativados por padrão, para obter uma lista dos coletores compatíveis, ativos e desativados, visite a seção "Collectors" na página do [GitHub](https://github.com/prometheus-community/windows_exporter). 
 
-Após o download, em seu host windows, navegue até a p executando o terminal como administrador até a pasta que se encontra o arquivo, e execute o seguinte comando:
+Após o download, em seu host windows, navegue até o local do download,  via terminal (execute como administrador), e execute o seguinte comando:
 ```
 msiexec /i ./windows_exporter-0.22.0-amd64.msi
 ```
-O Windows Exporter estará em execução na porta 9182 do seu computador com Windows, para verificar abra o navegador e acesse o endereço: http://localhost:9182/metrics. 
+O Windows Exporter estará em execução na porta 9182 do seu host windows, para verificar abra o navegador e acesse o endereço: http://localhost:9182/metrics. 
 
 Se você visualizar a saída abaixo, significa que o Windows Exporter está em funcionamento.
 		
@@ -62,7 +62,7 @@ Recomendo criar uma entrada para cada Host, caso contrario, basta separa os host
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTUxMDc4NywtMjEwMzEyNzczOCw0Mj
+eyJoaXN0b3J5IjpbMTkyNDc4ODIwNiwtMjEwMzEyNzczOCw0Mj
 M5MjkyNzksLTU3NjU5NTE2LDExMzQ0NDIyMzcsMTI3OTEwMjQ2
 Ml19
 -->
