@@ -51,18 +51,13 @@ Inclua na sessão ***## Hosts OS Windows / Windows Servers*** os seus alvos de c
         static_configs:
           - targets: ['IP-Host:9182']
           
-Recomendo criar uma entrada para cada Host, caso contrario, basta separa os hosts dessa forma: 
-
-      - job_name: 'hostname'
-        scrape_interval: 10s
-        static_configs:
-          - targets: ['IP-Host1:9182'],['IP-Host2:9182']
+Recomendo criar uma entrada para cada Host, caso contrario, basta separa os hosts dessa forma: ***['IP-Host1:9182'],['IP-Host2:9182']***
 
 ## Visualizando os dados no Grafana
 
-
+Em seu navegador, acesse o endereço: http://localhost:9182/metrics. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNDc4ODIwNiwtMjEwMzEyNzczOCw0Mj
+eyJoaXN0b3J5IjpbMTU5NDk0MTM5MywtMjEwMzEyNzczOCw0Mj
 M5MjkyNzksLTU3NjU5NTE2LDExMzQ0NDIyMzcsMTI3OTEwMjQ2
 Ml19
 -->
