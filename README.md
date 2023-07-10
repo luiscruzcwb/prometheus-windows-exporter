@@ -61,11 +61,11 @@ Em seu navegador, acesse o endereço: http://localhost:3000/.
     Senha: grafana 
     
 
-> Esses dados de acesso podem ser alterados nas configurações do
-> docker-compose alterado o arquivo config.monitoring /monitoramento/monitoring-os/grafana/config.monitoring
+> Esses dados de acesso podem ser alterados nas configurações do Grafana, alterando o arquivo **config.monitoring** em **/grafana/config.monitoring**
 
+No menu Dashboard, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU2NDEzODEsMTU5NDk0MTM5MywtMj
-EwMzEyNzczOCw0MjM5MjkyNzksLTU3NjU5NTE2LDExMzQ0NDIy
-MzcsMTI3OTEwMjQ2Ml19
+eyJoaXN0b3J5IjpbMTc0NDMwMTgyOSwxNTk0OTQxMzkzLC0yMT
+AzMTI3NzM4LDQyMzkyOTI3OSwtNTc2NTk1MTYsMTEzNDQ0MjIz
+NywxMjc5MTAyNDYyXX0=
 -->
