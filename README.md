@@ -37,8 +37,10 @@ Se você visualizar a saída abaixo, significa que o Windows Exporter está em f
 
 ## Configurando o Windows Exporter no Prometheus
 
-Navegue até a pasta _**prometheus**_ e dite o arquivo 
+Navegue até a pasta _**prometheus**_ e dite o arquivo _**prometheus.yml**_.
+
+O arquivo `prometheus.yml` é o arquivo de configuração principal do Prometheus, um sistema de monitoramento e alerta de código aberto. Ele é usado para definir várias configurações relacionadas ao comportamento do Prometheus, como os alvos de coleta de dados, regras de gravação e alertas. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTQ1OTIxLDExMzQ0NDIyMzcsMTI3OT
-EwMjQ2Ml19
+eyJoaXN0b3J5IjpbLTU5NDQ0ODU3NCwxMTM0NDQyMjM3LDEyNz
+kxMDI0NjJdfQ==
 -->
