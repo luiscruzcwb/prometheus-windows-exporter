@@ -63,9 +63,11 @@ Em seu navegador, acesse o endereço: http://localhost:3000/.
 
 > Esses dados de acesso podem ser alterados nas configurações do Grafana, alterando o arquivo **config.monitoring** em **/grafana/config.monitoring**
 
-No menu Dashboard, 
+No menu Dashboard, acessando o gráfico ***windows_exporter for Prometheus***, os seus dados já estarão sendo apresentados. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDMwMTgyOSwxNTk0OTQxMzkzLC0yMT
+eyJoaXN0b3J5IjpbMTY2MjIxODQ0MywxNTk0OTQxMzkzLC0yMT
 AzMTI3NzM4LDQyMzkyOTI3OSwtNTc2NTk1MTYsMTEzNDQ0MjIz
 NywxMjc5MTAyNDYyXX0=
 -->
