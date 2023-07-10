@@ -37,7 +37,7 @@ Se você visualizar a saída abaixo, significa que o Windows Exporter está em f
 
 ## Configurando o Windows Exporter no Prometheus
 
-Navegue até a pasta _**prometheus**_ e dite o arquivo _**prometheus.yml**_.
+Navegue até a pasta _**prometheus**_ e edite o arquivo _**prometheus.yml**_.
 
 > O arquivo `prometheus.yml` é o arquivo de configuração principal do
 > Prometheus, sendo usado para definir as configurações relacionadas ao
@@ -53,6 +53,6 @@ Inclua na sessão ***## Hosts OS Windows / Windows Servers*** os seus alvos de c
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NjU5NTE2LDExMzQ0NDIyMzcsMTI3OT
-EwMjQ2Ml19
+eyJoaXN0b3J5IjpbNDIzOTI5Mjc5LC01NzY1OTUxNiwxMTM0ND
+QyMjM3LDEyNzkxMDI0NjJdfQ==
 -->
