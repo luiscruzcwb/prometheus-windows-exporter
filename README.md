@@ -32,8 +32,12 @@ msiexec /i ./windows_exporter-0.22.0-amd64.msi
 O Windows Exporter estará em execução na porta 9182 do seu computador com Windows, para verificar abra o navegador e acesse o endereço: http://localhost:9182/metrics. 
 
 Se você visualizar a saída abaixo, significa que o Windows Exporter está em funcionamento.
-
+		
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fe38rp9464cmi1mvm5zw.png)
+
+## Configurando o Windows Exporter no Prometheus
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTYxMzM0MTddfQ==
+eyJoaXN0b3J5IjpbMTI3OTEwMjQ2Ml19
 -->
