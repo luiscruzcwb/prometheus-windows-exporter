@@ -5,8 +5,9 @@ volumes:
   grafana_data: {}
 
 services:
+
   prometheus:
-    image: prom/prometheus
+    image: prom/prometheus:latest
     container_name: prometheus
     restart: always
     volumes:
@@ -26,7 +27,7 @@ services:
       - cadvisor
 
   node-exporter:
-    image: prom/node-exporter
+    image: prom/node-exporter:latest
     container_name: node-exporter
     volumes:
       - /proc:/host/proc:ro
@@ -44,7 +45,7 @@ services:
       mode: global
 
   alertmanager:
-    image: prom/alertmanager
+    image: prom/alertmanager:latest
     container_name: alertmanager
     restart: always
     ports:
@@ -56,7 +57,7 @@ services:
       - '--storage.path=/alertmanager'
 
   cadvisor:
-    image: gcr.io/cadvisor/cadvisor
+    image: gcr.io/cadvisor/cadvisor:latest
     container_name: cadvisor
     volumes:
       - /:/rootfs:ro
@@ -70,7 +71,7 @@ services:
       mode: global
 
   grafana:
-    image: grafana/grafana
+    image: grafana/grafana:latest
     container_name: grafana
     user: '472'
     restart: always
@@ -85,3 +86,6 @@ services:
       - 3000:3000
     depends_on:
       - prometheus
+
+
+
