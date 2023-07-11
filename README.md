@@ -38,12 +38,11 @@ Se você estiver usando uma **versão de 64 bits** do sistema operacional Window
 
 ## Host - Instalando Windows Exporter
 
-Após o download, navegue até o local do download,  via terminal (administrador), e execute o seguinte comando:
+Após o download, navegue até o local do download,  via terminal ('Run as administrator'), e execute o seguinte comando:
 ```
 msiexec /i ./windows_exporter-0.22.0-amd64.msi
 ```
-O Windows Exporter estará em execução na porta 9182 do seu host windows, para verificar abra o navegador e acesse o endereço: http://localhost:9182/metrics. 
-
+O Windows Exporter estará em execução na porta 9182 do host windows, para verificar abra o navegador e acesse: http://localhost:9182/metrics. 
 
 ## Subindo o ambiente e visualizando os dados no Grafana
 
@@ -51,7 +50,7 @@ Execute o arquivo **_docker-compose_**.
 ```
 docker-compose up -d
 ```
-Em seu navegador, acesse o endereço: http://localhost:3000/.
+Em seu navegador, acesse: http://localhost:3000/.
 
     Usuário: Admin
     Senha: grafana 
@@ -62,8 +61,8 @@ Em Home > Dashboards > ***windows_exporter for Prometheus***, os seus dados já 
 
 ![enter image description here](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4st2bjk9un7peji4dd0o.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2MDEzNDcxLDExMDYwNDM1NTEsLTE4MD
-U1MjU0ODgsMzM2MjAyOTgyLC0xMTg5ODI5MzAxLDE2NjIyMTg0
-NDMsMTU5NDk0MTM5MywtMjEwMzEyNzczOCw0MjM5MjkyNzksLT
-U3NjU5NTE2LDExMzQ0NDIyMzcsMTI3OTEwMjQ2Ml19
+eyJoaXN0b3J5IjpbLTkwNTYyNzU5MywxMTA2MDQzNTUxLC0xOD
+A1NTI1NDg4LDMzNjIwMjk4MiwtMTE4OTgyOTMwMSwxNjYyMjE4
+NDQzLDE1OTQ5NDEzOTMsLTIxMDMxMjc3MzgsNDIzOTI5Mjc5LC
+01NzY1OTUxNiwxMTM0NDQyMjM3LDEyNzkxMDI0NjJdfQ==
 -->
