@@ -17,7 +17,7 @@ Navegue até a pasta _**prometheus**_ e edite o arquivo _**prometheus.yml**_.
 > comportamento do Prometheus, como os alvos de coleta de dados, regras
 > de gravação e alertas.
 
-Inclua na sessão ***## Hosts OS Windows / Windows Servers*** os seus alvos de coleta, como exemplo abaixo: 
+Inclua na sessão ***## Hosts OS Windows / Windows Servers*** os seus hosts de coleta, como exemplo abaixo: 
 
       - job_name: 'hostname'
         scrape_interval: 10s
@@ -27,7 +27,7 @@ Inclua na sessão ***## Hosts OS Windows / Windows Servers*** os seus alvos de c
 Recomendo criar uma entrada para cada Host, caso contrario, basta separa os hosts dessa forma: ***['IP-Host1:9182'],['IP-Host2:9182']***
 
 
-## Downloading Windows Exporter
+## Host - Downloading Windows Exporter
 Para baixar o Prometheus Windows Exporter, acesse a página do [GitHub](https://github.com/prometheus-community/windows_exporter) da comunidade.
 
 Faça o download da versão mais recente (v0.22.0 no momento) do Windows Exporter na seção "Releases".
@@ -36,7 +36,7 @@ Se você estiver usando uma **versão de 32 bits** do sistema operacional Window
 
 Se você estiver usando uma **versão de 64 bits** do sistema operacional Windows, clique no link **_windows_exporter-*-amd64.msi._**
 
-## Instalando Windows Exporter
+## Host - Instalando Windows Exporter
 
 Após o download, em seu host windows, navegue até o local do download,  via terminal (execute como administrador), e execute o seguinte comando:
 ```
@@ -45,15 +45,7 @@ msiexec /i ./windows_exporter-0.22.0-amd64.msi
 O Windows Exporter estará em execução na porta 9182 do seu host windows, para verificar abra o navegador e acesse o endereço: http://localhost:9182/metrics. 
 
 
-Execute o arquivo **_docker-compose_** (se necessário faça ajustes, conforme sua necessidade).
-```
-docker-compose up -d
-```
-
-
-
-
-## Visualizando dados no Grafana
+## Subindo o ambiente e visualizando os dados no Grafana
 
 Em seu navegador, acesse o endereço: http://localhost:3000/.
 
@@ -66,7 +58,7 @@ Em Home > Dashboards > ***windows_exporter for Prometheus***, os seus dados já 
 
 ![enter image description here](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4st2bjk9un7peji4dd0o.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTEwNjE3OCwxMTA2MDQzNTUxLC0xOD
+eyJoaXN0b3J5IjpbLTY0OTgzNTg4NywxMTA2MDQzNTUxLC0xOD
 A1NTI1NDg4LDMzNjIwMjk4MiwtMTE4OTgyOTMwMSwxNjYyMjE4
 NDQzLDE1OTQ5NDEzOTMsLTIxMDMxMjc3MzgsNDIzOTI5Mjc5LC
 01NzY1OTUxNiwxMTM0NDQyMjM3LDEyNzkxMDI0NjJdfQ==
