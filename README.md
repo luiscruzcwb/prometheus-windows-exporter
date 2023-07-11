@@ -11,8 +11,7 @@ Execute o arquivo **_docker-compose_** (se necessário faça ajustes, conforme s
 ```
 docker-compose up -d
 ```
-## Downloading Windows Exporter e Instalação
-
+## Downloading Windows Exporter
 Para baixar o Prometheus Windows Exporter, acesse a página do [GitHub](https://github.com/prometheus-community/windows_exporter) da comunidade.
 
 Faça o download da versão mais recente (v0.22.0 no momento) do Windows Exporter na seção "Releases".
@@ -21,7 +20,7 @@ Se você estiver usando uma **versão de 32 bits** do sistema operacional Window
 
 Se você estiver usando uma **versão de 64 bits** do sistema operacional Windows, clique no link **_windows_exporter-*-amd64.msi._**
 
-## Instalando o Windows Exporter
+## Instalando Windows Exporter
 
 Após o download, em seu host windows, navegue até o local do download,  via terminal (execute como administrador), e execute o seguinte comando:
 ```
@@ -47,7 +46,7 @@ Inclua na sessão ***## Hosts OS Windows / Windows Servers*** os seus alvos de c
           
 Recomendo criar uma entrada para cada Host, caso contrario, basta separa os hosts dessa forma: ***['IP-Host1:9182'],['IP-Host2:9182']***
 
-## Visualizando os dados no Grafana
+## Visualizando dados no Grafana
 
 Em seu navegador, acesse o endereço: http://localhost:3000/.
 
@@ -60,8 +59,8 @@ Em Home > Dashboards > ***windows_exporter for Prometheus***, os seus dados já 
 
 ![enter image description here](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4st2bjk9un7peji4dd0o.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU1MjU0ODgsMzM2MjAyOTgyLC0xMT
-g5ODI5MzAxLDE2NjIyMTg0NDMsMTU5NDk0MTM5MywtMjEwMzEy
-NzczOCw0MjM5MjkyNzksLTU3NjU5NTE2LDExMzQ0NDIyMzcsMT
-I3OTEwMjQ2Ml19
+eyJoaXN0b3J5IjpbMTEwNjA0MzU1MSwtMTgwNTUyNTQ4OCwzMz
+YyMDI5ODIsLTExODk4MjkzMDEsMTY2MjIxODQ0MywxNTk0OTQx
+MzkzLC0yMTAzMTI3NzM4LDQyMzkyOTI3OSwtNTc2NTk1MTYsMT
+EzNDQ0MjIzNywxMjc5MTAyNDYyXX0=
 -->
