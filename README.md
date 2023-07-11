@@ -57,12 +57,12 @@ Em seu navegador, acesse: http://localhost:3000/.
     
 > Esses dados de acesso podem ser alterados nas configurações do Grafana, alterando o arquivo **config.monitoring** em **/grafana/config.monitoring**  do ***docker-compose***. 
 
-Em Home > Dashboards > ***windows_exporter for Prometheus***, os seus dados já estarão sendo apresentados. 
+Em Home > Dashboards > ***windows_exporter for Prometheus***, os dados de coleta já estarão sendo apresentados. 
 
 ![enter image description here](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4st2bjk9un7peji4dd0o.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTYyNzU5MywxMTA2MDQzNTUxLC0xOD
-A1NTI1NDg4LDMzNjIwMjk4MiwtMTE4OTgyOTMwMSwxNjYyMjE4
-NDQzLDE1OTQ5NDEzOTMsLTIxMDMxMjc3MzgsNDIzOTI5Mjc5LC
-01NzY1OTUxNiwxMTM0NDQyMjM3LDEyNzkxMDI0NjJdfQ==
+eyJoaXN0b3J5IjpbNjA3Mzc2NjI0LDExMDYwNDM1NTEsLTE4MD
+U1MjU0ODgsMzM2MjAyOTgyLC0xMTg5ODI5MzAxLDE2NjIyMTg0
+NDMsMTU5NDk0MTM5MywtMjEwMzEyNzczOCw0MjM5MjkyNzksLT
+U3NjU5NTE2LDExMzQ0NDIyMzcsMTI3OTEwMjQ2Ml19
 -->
