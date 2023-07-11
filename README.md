@@ -38,7 +38,7 @@ Se você estiver usando uma **versão de 64 bits** do sistema operacional Window
 
 ## Host - Instalando Windows Exporter
 
-Após o download, em seu host windows, navegue até o local do download,  via terminal (execute como administrador), e execute o seguinte comando:
+Após o download, navegue até o local do download,  via terminal (administrador), e execute o seguinte comando:
 ```
 msiexec /i ./windows_exporter-0.22.0-amd64.msi
 ```
@@ -62,8 +62,8 @@ Em Home > Dashboards > ***windows_exporter for Prometheus***, os seus dados já 
 
 ![enter image description here](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4st2bjk9un7peji4dd0o.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjM4OTY5NzQsMTEwNjA0MzU1MSwtMT
-gwNTUyNTQ4OCwzMzYyMDI5ODIsLTExODk4MjkzMDEsMTY2MjIx
-ODQ0MywxNTk0OTQxMzkzLC0yMTAzMTI3NzM4LDQyMzkyOTI3OS
-wtNTc2NTk1MTYsMTEzNDQ0MjIzNywxMjc5MTAyNDYyXX0=
+eyJoaXN0b3J5IjpbNjM2MDEzNDcxLDExMDYwNDM1NTEsLTE4MD
+U1MjU0ODgsMzM2MjAyOTgyLC0xMTg5ODI5MzAxLDE2NjIyMTg0
+NDMsMTU5NDk0MTM5MywtMjEwMzEyNzczOCw0MjM5MjkyNzksLT
+U3NjU5NTE2LDExMzQ0NDIyMzcsMTI3OTEwMjQ2Ml19
 -->
