@@ -47,6 +47,10 @@ O Windows Exporter estará em execução na porta 9182 do seu host windows, para
 
 ## Subindo o ambiente e visualizando os dados no Grafana
 
+Execute o arquivo **_docker-compose_**.
+```
+docker-compose up -d
+```
 Em seu navegador, acesse o endereço: http://localhost:3000/.
 
     Usuário: Admin
@@ -58,8 +62,8 @@ Em Home > Dashboards > ***windows_exporter for Prometheus***, os seus dados já 
 
 ![enter image description here](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4st2bjk9un7peji4dd0o.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTgzNTg4NywxMTA2MDQzNTUxLC0xOD
-A1NTI1NDg4LDMzNjIwMjk4MiwtMTE4OTgyOTMwMSwxNjYyMjE4
-NDQzLDE1OTQ5NDEzOTMsLTIxMDMxMjc3MzgsNDIzOTI5Mjc5LC
-01NzY1OTUxNiwxMTM0NDQyMjM3LDEyNzkxMDI0NjJdfQ==
+eyJoaXN0b3J5IjpbLTIwNjM4OTY5NzQsMTEwNjA0MzU1MSwtMT
+gwNTUyNTQ4OCwzMzYyMDI5ODIsLTExODk4MjkzMDEsMTY2MjIx
+ODQ0MywxNTk0OTQxMzkzLC0yMTAzMTI3NzM4LDQyMzkyOTI3OS
+wtNTc2NTk1MTYsMTEzNDQ0MjIzNywxMjc5MTAyNDYyXX0=
 -->
